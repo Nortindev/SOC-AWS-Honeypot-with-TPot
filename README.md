@@ -7,7 +7,7 @@ This guide will walk you through deploying a Honeypot on AWS using **T-Pot**. T-
 Before you begin, ensure you meet the following prerequisites:
 
 1. **Operating System**: Use a **Debian support image**. The recommended image is:
-    - **Debian 11** | Support by [SupportedImages](https://aws.amazon.com/marketplace/pp/prodview-fgkgvwvmljj5i) (sold by Supported Images).
+    - **Debian 11** | Support by [SupportedImages](https://aws.amazon.com/marketplace/pp/prodview-keyr3cdc5hmxk?sr=0-1&ref_=beagle&applicationId=AWS-EC2-Console) (sold by Supported Images).
    
 2. **AWS Instance Type**: 
     - It is highly recommended to use a **t3.xlarge** instance on AWS.
