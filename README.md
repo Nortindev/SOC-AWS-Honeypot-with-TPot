@@ -85,13 +85,13 @@ After the installation, you'll need to adjust the security group rules in AWS to
 
 1. Remove all existing rules in your AWS security group.
 
-2. Add the following four rules to open specific ports. These ports should only be accessible to you (your IP address) to manage T-Pot:
+2. Add the following four rules to open specific ports. These ports should only be accessible to **YOU (your IP address)** to manage T-Pot:
 
     - **Port 64294 (TCP)**: T-Pot Management – Sensor data transmission to hive (via NGINX reverse proxy) to 127.0.0.1:64305
     - **Port 64295 (TCP)**: T-Pot Management – Access to SSH
     - **Port 64297 (TCP)**: T-Pot Management – Access to NGINX reverse proxy
 
-3. Add the following rule to allow attack traffic from any IP address. This will enable the honeypot to capture malicious traffic:
+3. Add the following rule to allow attack traffic from **ANY** IP address. This will enable the honeypot to capture malicious traffic:
 
     - **Custom TCP 0-64000**: Accessible to anyone, to allow attacks to start.
   
