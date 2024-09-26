@@ -47,7 +47,7 @@ Before starting, make sure your system is up-to-date and Git is installed.
     
 ![AWSHoneypot5](images/aws-honeypot5.jpeg)
 
-![AWSHoneypot6](images/aws-honeypot6.jpeg)
+
 
 2. Navigate to the cloned repository:
 
@@ -63,7 +63,10 @@ Before starting, make sure your system is up-to-date and Git is installed.
     sudo ./install.sh
     ```
 
-2. During installation, select the **HIVE/STANDARD** option when prompted.
+
+2. During installation, select the **HIVE/STANDARD** option when prompted. 
+
+![AWSHoneypot6](images/aws-honeypot6.jpeg)
 
 3. Set the username and password for accessing the T-Pot management interface. For example:
 
