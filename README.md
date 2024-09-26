@@ -112,7 +112,7 @@ After the installation, you'll need to adjust the security group rules in AWS to
 
 ## Step 6: Review Your Deployed Honeypot
 
-Congratulations! Your honeypot is now deployed and active. It is set up to capture and analyze various types of attacks. Additionally, it includes a **SIEM** for monitoring and analyzing attack data.
+Congratulations! Your honeypot is now deployed and active. It is set up to capture and analyze various types of attacks. Additionally, it includes a **SIEM** and many other features, including Elastic Stack, for monitoring and analyzing attack data!
 
 ![AWSHoneypot8](images/aws-honeypot8.jpeg)
 
