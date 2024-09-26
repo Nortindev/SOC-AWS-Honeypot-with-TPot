@@ -14,6 +14,16 @@ Before you begin, ensure you meet the following prerequisites:
         - **Resources**: 16GB of RAM and 160GB of storage.
         - T-Pot includes resource-heavy services like ELK (Elasticsearch, Logstash, Kibana), SIEM, and multiple honeypot daemons, so these specifications help ensure optimal performance.
         - You may experiment with lesser resources, but this configuration is advised for smooth operation and accurate results.
+     
+3. **Let`s start the process by launching an EC2 instance on AWS! Follow along the configurations:**
+
+![AWSHoneypot1](images/aws-honeypot1.jpeg)
+
+![AWSHoneypot2](images/aws-honeypot2.jpeg)
+
+![AWSHoneypot3](images/aws-honeypot3.jpeg)
+
+![AWSHoneypot4](images/aws-honeypot4.jpeg)
 
 ---
 
@@ -34,6 +44,10 @@ Before starting, make sure your system is up-to-date and Git is installed.
     ```bash
     git clone https://github.com/telekom-security/tpotce
     ```
+    
+![AWSHoneypot5](images/aws-honeypot5.jpeg)
+
+![AWSHoneypot6](images/aws-honeypot6.jpeg)
 
 2. Navigate to the cloned repository:
 
@@ -77,6 +91,8 @@ After the installation, you'll need to adjust the security group rules in AWS to
 3. Add the following rule to allow attack traffic from any IP address. This will enable the honeypot to capture malicious traffic:
 
     - **Custom TCP 0-64000**: Accessible to anyone, to allow attacks to start.
+  
+ ![AWSHoneypot7](images/aws-honeypot7.jpeg)  
 
 ## Step 5: Access the T-Pot Management Interface
 
@@ -88,12 +104,18 @@ After the installation, you'll need to adjust the security group rules in AWS to
 
 2. Login using the username and password you set during the installation:
 
-    - **Username**: `gr33neyes`
-    - **Password**: `Gr33nEyespasst01#`
+    - **Username**: `youruser`
+    - **Password**: `*******************`
 
 ## Step 6: Review Your Deployed Honeypot
 
 Congratulations! Your honeypot is now deployed and active. It is set up to capture and analyze various types of attacks. Additionally, it includes a **SIEM** for monitoring and analyzing attack data.
+
+![AWSHoneypot8](images/aws-honeypot8.jpeg)
+
+![AWSHoneypot9](images/aws-honeypot9.jpeg)
+
+![AWSHoneypot10](images/aws-honeypot10.jpeg)
 
 ## Additional Notes
 
